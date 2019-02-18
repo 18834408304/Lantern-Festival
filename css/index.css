@@ -1,0 +1,103 @@
+.swiper-container {
+  width: 320px;
+  height: 504px; }
+
+.big-box {
+  width: 320px;
+  height: 504px;
+  position: relative;
+  overflow: hidden; }
+  .big-box img {
+    position: absolute; }
+    .big-box img.tu1 {
+      width: 320px;
+      height: 504px; }
+    .big-box img.tu2 {
+      width: 312px;
+      height: 501px;
+      left: 4px;
+      top: 2px; }
+    .big-box img.tu3 {
+      width: 282px;
+      height: 449px;
+      left: 22px;
+      top: 32px; }
+    .big-box img.tu4 {
+      width: 240px;
+      height: 415px;
+      left: 37px;
+      top: 38px; }
+    .big-box img.tu5 {
+      width: 141px;
+      height: 298px;
+      left: -52px;
+      top: -100px; }
+    .big-box img.tu6 {
+      width: 141px;
+      height: 298px;
+      left: 220px;
+      top: -140px; }
+    .big-box img.tu7 {
+      width: 25px;
+      height: 158px;
+      left: 110px;
+      top: 150px; }
+    .big-box img.tu8 {
+      width: 143px;
+      height: 122px;
+      left: 160px;
+      top: 64px; }
+    .big-box img.tu9 {
+      width: 143px;
+      height: 122px;
+      left: 170px;
+      top: 164px; }
+    .big-box img.tu10 {
+      width: 143px;
+      height: 122px;
+      left: 170px;
+      top: 290px; }
+    .big-box img.tu11 {
+      width: 240px;
+      height: 240px;
+      left: 4px;
+      top: 254px; }
+    .big-box img.tu12 {
+      width: 20px;
+      height: 15px;
+      left: 150px;
+      bottom: 14px; }
+  .big-box .text-head {
+    position: absolute;
+    top: 50px;
+    left: 74px;
+    color: #ffc786;
+    font-size: 14px;
+    font-family: FZXKJW_1712967488;
+    line-height: 16px;
+    z-index: 10; }
+  .big-box .text-center {
+    width: 125px;
+    height: 48px;
+    position: absolute;
+    top: 90px;
+    left: 72px;
+    color: #ffc786;
+    font-size: 18px;
+    line-height: 28px;
+    z-index: 10; }
+  .big-box .text-yuanxiao {
+    width: 18px;
+    height: 110px;
+    position: absolute;
+    top: 174px;
+    left: 115px;
+    color: #ffc786;
+    font-size: 16px;
+    line-height: 22px;
+    z-index: 10; }
+
+.box {
+  opacity: 0; }
+
+/*# sourceMappingURL=index.css.map */
