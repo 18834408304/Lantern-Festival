@@ -2,6 +2,18 @@
   width: 320px;
   height: 504px; }
 
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotate(-30deg); } }
+@-webkit-keyframes rotate1 {
+  to {
+    -webkit-transform: rotate(0); } }
+@-webkit-keyframes rotate2 {
+  to {
+    -webkit-transform: rotate(0); } }
+@-webkit-keyframes rotate3 {
+  to {
+    -webkit-transform: scale(1); } }
 .big-box {
   width: 320px;
   height: 504px;
@@ -16,17 +28,26 @@
       width: 312px;
       height: 501px;
       left: 4px;
-      top: 2px; }
+      top: 2px;
+      transform: rotate(180deg);
+      -webkit-animation: rotate1 1s linear 0s 1;
+      animation-fill-mode: forwards; }
     .big-box img.tu3 {
       width: 282px;
       height: 449px;
       left: 22px;
-      top: 32px; }
+      top: 32px;
+      transform: rotate(-180deg);
+      -webkit-animation: rotate2 1s linear 0s 1;
+      animation-fill-mode: forwards; }
     .big-box img.tu4 {
       width: 240px;
       height: 415px;
       left: 37px;
-      top: 38px; }
+      top: 38px;
+      transform: scale(0.4);
+      -webkit-animation: rotate3 1.3s linear 0.5s 1;
+      animation-fill-mode: forwards; }
     .big-box img.tu5 {
       width: 141px;
       height: 298px;
@@ -57,16 +78,55 @@
       height: 122px;
       left: 170px;
       top: 290px; }
+    .big-box img.tu16 {
+      width: 52px;
+      height: 90px;
+      left: 197px;
+      top: 86px;
+      z-index: 10; }
+    .big-box img.tu17 {
+      width: 64px;
+      height: 90px;
+      left: 197px;
+      top: 197px;
+      z-index: 10; }
+    .big-box img.tu18 {
+      width: 56px;
+      height: 90px;
+      left: 197px;
+      top: 306px;
+      z-index: 10; }
     .big-box img.tu11 {
       width: 240px;
       height: 240px;
       left: 4px;
-      top: 254px; }
+      top: 254px;
+      z-index: 10;
+      transform: rotate(30deg);
+      -webkit-animation: rotate 1s ease-in-out alternate infinite; }
     .big-box img.tu12 {
       width: 20px;
       height: 15px;
       left: 150px;
-      bottom: 14px; }
+      bottom: 14px;
+      z-index: 10; }
+    .big-box img.tu13 {
+      width: 30px;
+      height: 30px;
+      right: 10px;
+      top: 10px;
+      z-index: 10;
+      transform: rotate(360deg);
+      -webkit-animation: rotate 0.8s linear infinite; }
+    .big-box img.tu14 {
+      width: 30px;
+      height: 30px;
+      right: 10px;
+      top: 10px;
+      z-index: 10; }
+    .big-box img.tu15 {
+      left: -5px;
+      bottom: 0; }
   .big-box .text-head {
     position: absolute;
     top: 50px;
@@ -96,8 +156,5 @@
     font-size: 16px;
     line-height: 22px;
     z-index: 10; }
-
-/* .box {
-  opacity: 0; } */
 
 /*# sourceMappingURL=index.css.map */

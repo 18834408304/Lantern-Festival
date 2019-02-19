@@ -2,6 +2,26 @@
     width: 320px;
     height: 504px;
 }
+@-webkit-keyframes rotate{
+	to{
+		-webkit-transform:rotate(-30deg);
+	}
+}
+@-webkit-keyframes rotate1{
+	to{
+		-webkit-transform:rotate(0);
+	}
+}
+@-webkit-keyframes rotate2{
+	to{
+		-webkit-transform:rotate(0);
+	}
+}
+@-webkit-keyframes rotate3{
+	to{
+		-webkit-transform:scale(1);
+	}
+}
 .big-box{
 	width: 320px;
 	height: 504px;
@@ -18,18 +38,27 @@
 			height: 501px;
 			left: 4px;
 			top: 2px;
+			transform: rotate(180deg);
+			-webkit-animation: rotate1 1s linear 0s 1;
+			animation-fill-mode: forwards;
 		}
 		&.tu3{
 			width: 282px;
 			height: 449px;
 			left: 22px;
 			top: 32px;
+			transform: rotate(-180deg);
+			-webkit-animation: rotate2 1s linear 0s 1;
+			animation-fill-mode: forwards;
 		}
 		&.tu4{
 			width: 240px;
 			height: 415px;
 			left: 37px;
 			top: 38px;
+			transform:scale(0.4);
+			-webkit-animation: rotate3 1.3s linear 0.5s 1;
+			animation-fill-mode: forwards;
 		}
 		&.tu5{
 			width: 141px;
@@ -64,17 +93,61 @@
 			height: 122px;
 			left: 170px;
 			top: 290px;
-		}&.tu11{
+		}
+		&.tu16{
+			width: 52px;
+			height: 90px;
+			left: 197px;
+			top: 86px;
+			z-index: 10;
+		}&.tu17{
+			width: 64px;
+			height: 90px;
+			left: 197px;
+			top: 197px;
+			z-index: 10;
+		}&.tu18{
+			width: 56px;
+			height: 90px;
+			left: 197px;
+			top: 306px;
+			z-index: 10;
+		}
+		&.tu11{
 			width: 240px;
 			height: 240px;
 			left: 4px;
 			top: 254px;
+			z-index: 10;
+			transform: rotate(30deg);
+			-webkit-animation:rotate 1s ease-in-out alternate infinite;
 		}
 		&.tu12{
 			width: 20px;
 			height: 15px;
 			left: 150px;
 			bottom: 14px;
+			z-index: 10;
+		}
+		&.tu13{
+			width: 30px;
+			height: 30px;
+			right: 10px;
+			top: 10px;
+			z-index: 10;
+			transform: rotate(360deg);
+			-webkit-animation: rotate 0.8s linear infinite;
+		}
+		&.tu14{
+			width: 30px;
+			height: 30px;
+			right: 10px;
+			top: 10px;
+			z-index: 10;
+		}
+		&.tu15{
+			left: -5px;
+			bottom: 0;
 		}
 	}
 	.text-head{
